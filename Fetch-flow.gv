@@ -1,0 +1,8 @@
+digraph {
+    node [shape=rect style=rounded];
+		rankdir=LR
+
+  App -> "URI Mapper" -> "Authenticator" -> "HTTP Lib" -> "Response Handler" -> Store
+
+ 
+}
